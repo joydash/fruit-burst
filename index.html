@@ -108,6 +108,8 @@
         <!-- banner section end  -->
     </header>
     <main>
+        <!-- Deal of the day section  -->
+
      <section class="mt-14">
         <div class="flex justify-between mr-52 ml-52 mb-10">
             <div>
@@ -120,7 +122,10 @@
 
             </div>
         </div>
-        <div class="flex justify-center items-center gap-2 mr-28 ml-28">
+
+        <!-- Deal of the day card  -->
+
+        <div class="flex justify-center items-center gap-2 mr-52 ml-52">
             <div class="card w-72 bg-base-100 shadow-xl">
                 <figure class="px-10 pt-10">
                   <img src="images/fruit1.png" alt="apple" class="rounded-xl" />
@@ -194,10 +199,114 @@
                 </div>
               </div>
         </div>
-     </section>   
+        <div class="flex justify-center p-10">
+            <button class="btn bg-[#F85559] text-[#fff]">Shop All</button>
+        </div>
+        
+     </section> 
+     <!-- Deal of the day section End    -->
+     
+     <!-- Meet he team section  -->
+     <section class="z-0">
+        <div class="card bg-base-100 shadow-xl image-full ml-52 mr-52">
+            <figure><img src="images/banner1.png" alt="Shoes" /></figure>
+            <div class="card-body p-20">
+              <h2 class="card-title justify-center text-5xl font-extrabold">Meet the team section</h2>
+              <p class="text-center text-base font-medium mt-3">Contrary to popular belief, is not simply random text. It has roots in a piece of classical <br> Latin literature from 45 BC, making it over 2000 years old.</p>
+              <!-- user  -->
+              <div class="flex justify-center items-center mt-10">
+                <div>
+                    <img class="ml-6 " src="images/member1.png" alt="membar1">
+                  <div class="text-center">
+                    <h3 class="text-2xl font-bold p-5">Awlad Hossain</h3>
+                    <p class="text-base font-medium pb-3">Fruits Expert</p>
+                    <i class="fa-brands fa-facebook p-1 text-[#F85551]"></i>
+                    <i class="fa-brands fa-twitter p-1 text-[#F85551]"></i>
+                    <i class="fa-brands fa-linkedin p-1 text-[#F85551]"></i>
+                  </div>
+                </div>
+                <div>
+                    <img class="ml-6" src="images/member2.png" alt="membar1">
+                    <div class="text-center">
+                    <h3 class="text-2xl font-bold p-5">Safia Chowdhury</h3>
+                    <p class="text-base font-medium pb-3">Fruits Expert</p>
+                    <i class="fa-brands fa-facebook p-1 text-[#F85551]"></i>
+                    <i class="fa-brands fa-twitter p-1 text-[#F85551]"></i>
+                    <i class="fa-brands fa-linkedin p-1 text-[#F85551]"></i>
+                    </div>
+                </div>
+                <div>
+                    <img class="ml-6" src="images/member3.png" alt="membar1">
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold p-5">Rokib Hossain</h3>
+                    <p class="text-base font-medium pb-3">Fruits Expert</p>
+                    <i class="fa-brands fa-facebook p-1 text-[#F85551]"></i>
+                    <i class="fa-brands fa-twitter p-1 text-[#F85551]"></i>
+                    <i class="fa-brands fa-linkedin p-1 text-[#F85551]"></i>
+                    </div>
+                </div>
+                <div>
+                    <img class="ml-6" src="images/member4.png" alt="membar1">
+                    <div class="text-center">
+                        <h3 class="text-2xl font-bold p-5">Chaity</h3>
+                    <p class="text-base font-medium pb-3">Fruits Expert</p>
+                    <i class="fa-brands fa-facebook p-1 text-[#F85551]"></i>
+                    <i class="fa-brands fa-twitter p-1 text-[#F85551]"></i>
+                    <i class="fa-brands fa-linkedin p-1 text-[#F85551]"></i>
+                    </div>
+                </div>
+              </div>
+            </div>
+          </div>
+     </section>
+
+<!-- modal 1  -->
+
+<section class="relative flex justify-center -mt-5 z-20">
+        <!-- Open the modal using ID.showModal() method -->
+<button class="btn" onclick="my_modal_1.showModal()">Your Offer</button>
+<dialog id="my_modal_1" class="modal">
+<form method="dialog" class="modal-box">
+  <div class="flex justify-center items-center">
+      <img " src="images/fruit5.png" alt="random">
+  </div>
+  <h3 class="font-bold text-lg text-center">Red Dragon</h3>
+  <p class="py-4 text-center">Professional employees are there for you to pick the most <br> amazing and fresh fruits.</p>
+  <!-- ratting  -->
+  <div class="flex justify-center mt-5">
+      <div class="rating">
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" checked />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+          <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+        </div>
+  </div>
+  <br>
+    <!-- button  -->
+    <div class="mt-5 text-center p-4">
+      <button class="btn bg-[#fff] text-[#000] p-5">Close</button>
+    <button class="btn bg-[#F85559] text-[#fff] p-5">Buy now</button>
+    </div>
+  
+    <div class="modal-action">
+    <!-- if there is a button in form, it will close the modal -->
+    <button class="btn">Close</button>
+  </div>
+</form>
+</dialog>
+</section>
+
+
+
+
+
+
+
+
     </main>
     <footer>
-
+ 
     </footer>
 </body>
 </html>
